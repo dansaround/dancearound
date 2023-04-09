@@ -54,6 +54,14 @@ const App = () => {
   return (
     <div>
       <h1>Dance Around</h1>
+      <div className="text_container">
+        <p>
+          Proyecto personal, biblioteca de los vídeos que he coleccionado a lo
+          largo mi proceso en el mundo del baile. Disfruten.
+        </p>
+        <p>- Daniel K🤓</p>
+      </div>
+
       <div className="filtros_container">
         <div className="filtros">
           <h2>Género:</h2>
@@ -95,6 +103,10 @@ const App = () => {
           </li>
         ))}
       </ul>
+      <p className="quote">
+        "Bailar es algo que no puede ser explicado con palabras, es algo que
+        tiene que ser bailado" - El Autor
+      </p>
     </div>
   );
 };
