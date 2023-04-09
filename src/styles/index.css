@@ -1,11 +1,18 @@
 :root {
+  --color-bg-light: #f5f5f5;
+  --color-bg-dark: #061826;
+  --color-text: whitesmoke;
+  --color-text-accent: #57b5ef;
+  --color-accent: #08d9cb;
+  --color-btn: #0470a666;
+  --color-btn-border: #3685b5;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--color-text);
+  background-color: var(--color-bg-dark);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,11 +23,12 @@
 
 a {
   font-weight: 500;
-  color: #cfcfd9;
+  color: var(--color-text);
   text-decoration: inherit;
+  transition: color 0.5s ease;
 }
 a:hover {
-  color: #53f2ba;
+  color: var(--color-text-accent);
 }
 
 body {
@@ -49,12 +57,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--color-btn);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.5s ease;
 }
+
 button:hover {
-  border-color: #53f2ba;
+  border-color: var(--color-btn-border);
 }
 button:focus,
 button:focus-visible {
