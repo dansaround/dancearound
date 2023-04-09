@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 240 240">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 200px;
+        fill: #009ccf;
+        font-family: "Century Gothic";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="125.031" cy="126.25" r="105.531"/>
+  <text id="D" class="cls-2" x="59.994" y="198.14">D</text>
+</svg>
